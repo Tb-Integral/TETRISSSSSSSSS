@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1808730341305398363}
   - component: {fileID: 5703757134697457537}
   - component: {fileID: 4343573206381448046}
+  - component: {fileID: 5726753992492796349}
   m_Layer: 0
   m_Name: figure_s_0
   m_TagString: Untagged
@@ -122,7 +123,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.45, y: 0.97}
+    oldSize: {x: 0.7552083, y: 0.5052083}
     newSize: {x: 1.45, y: 0.97}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -166,3 +167,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5726753992492796349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4798803454192684277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eeeeef639fa04641a0013b29a6bb9a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _addObj: {fileID: 0}
