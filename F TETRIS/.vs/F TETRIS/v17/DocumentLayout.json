@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|e:\\mareatan\\github\\tetrisssssssss\\f tetris\\assets\\scripts\\tetramina_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tetramina_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,29 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ScoreManager.cs",
+              "ToolTip": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\ScoreManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:03:05.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "tetraminas_spawner.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\tetraminas_spawner.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\tetraminas_spawner.cs",
               "ToolTip": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\tetraminas_spawner.cs",
               "RelativeToolTip": "Assets\\scripts\\tetraminas_spawner.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T16:12:22.946Z"
+              "WhenOpened": "2024-09-25T16:12:22.946Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "tetramina_movement.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\tetramina_movement.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\tetramina_movement.cs",
               "ToolTip": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\tetramina_movement.cs",
               "RelativeToolTip": "Assets\\scripts\\tetramina_movement.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowEsAAAAFAAAA",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAowJoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T17:33:38.151Z",
               "EditorCaption": ""

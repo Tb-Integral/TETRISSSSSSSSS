@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class tetramina_movement : MonoBehaviour
@@ -7,9 +10,17 @@ public class tetramina_movement : MonoBehaviour
     [SerializeField] private Vector3 rotation_point;
     private float previousTime;
     [SerializeField] private float fallTime = 0.8f;
-    public static int height = 9;
-    public static int width = 4;
+    public static int height = 20;
+    public static int width = 10;
     private static Transform[,] grid = new Transform[width, height];
+
+    private ScoreManager scoreManager;
+
+    void Start()
+    {
+        // Ищем ScoreManager один раз при старте
+        scoreManager = FindObjectOfType<ScoreManager>();
+    }
 
     void Update()
     {
@@ -31,13 +42,15 @@ public class tetramina_movement : MonoBehaviour
             if (!IsOutside())
                 transform.RotateAround(transform.TransformPoint(rotation_point), new Vector3(0, 0, 1), -90);
         }
-        if (Time.time - previousTime > (Input.GetKey(KeyCode.S) ? fallTime / 10 : fallTime))
+        if (Time.time - previousTime > (Input.GetKey(KeyCode.S) ? fallTime / 7 : fallTime))
         {
             transform.position += new Vector3(0, -1, 0);
             if (!IsOutside())
             {
                 transform.position += new Vector3(0, 1, 0);
-                //AddToGrid();
+                AddToGrid();
+                IsLineFull();
+                CheckTetrominoEmpty();
                 this.enabled = false;
                 FindObjectOfType<tetraminas_spawner>().spawn_tetramino();
             }
@@ -49,9 +62,8 @@ public class tetramina_movement : MonoBehaviour
     {
         foreach (Transform children in transform)
         {
-            int childX = Mathf.RoundToInt(children.position.x);
-            int childY = Mathf.RoundToInt(children.position.y);
-
+            int childX = Mathf.CeilToInt(children.position.x);
+            int childY = Mathf.CeilToInt(children.position.y);
             grid[childX, childY] = children;
         }
 
@@ -61,17 +73,84 @@ public class tetramina_movement : MonoBehaviour
     {
         foreach (Transform children in transform)
         {
-            int childX = Mathf.RoundToInt(children.position.x);
-            int childY = Mathf.RoundToInt(children.position.y);
+            int childX = Mathf.CeilToInt(children.position.x);
+            int childY = Mathf.CeilToInt(children.position.y);
 
-            if (childX < -4 || childX > 4 || childY < -9)
+            if (childX < 0 || childX >= width || childY < 1)
             {
                 return false;
             }
 
-            //if (grid[childX, childY] != null) return false;
+            if (childY < height && grid[childX, childY] != null) return false;
         }
 
         return true;
+    }
+
+    void IsLineFull()
+    {
+        for (int i = height-1; i >= 1; i--)
+        {
+            if (IsThatLineFull(i))
+            {
+                DeliteLine(i);
+                DownLine(i);
+            }
+        }
+    }
+
+    bool IsThatLineFull(int i)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            if (grid[j, i] == null) return false;
+        }
+        return true;
+    }
+
+    void DeliteLine(int i)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            Destroy(grid[j, i].gameObject);
+            grid[j, i] = null;
+        }
+
+        if (scoreManager != null)
+        {
+            scoreManager.new_text(100); // Добавляем 100 очков за удаление строки
+        }
+    }
+      
+    void DownLine(int i)
+    {
+        for (int y=i; y < height; y++)
+        {
+            for(int j = 0; j < width; j++)
+            {
+                if (grid[j, y] != null)
+                {
+                    grid[j, y - 1] = grid[j, y];
+                    grid[j, y] = null;
+                    grid[j, y - 1].transform.position -= new Vector3(0, 1, 0);
+                }
+            }
+        }
+    }
+
+    void CheckTetrominoEmpty()
+    {
+        // Находим все объекты с компонентом tetramina_movement
+        tetramina_movement[] allTetrominoes = FindObjectsOfType<tetramina_movement>();
+
+        // Проверяем каждую тетрамино
+        foreach (var tetromino in allTetrominoes)
+        {
+            // Если у тетрамино нет дочерних объектов, уничтожаем её
+            if (tetromino.transform.childCount == 0)
+            {
+                Destroy(tetromino.gameObject);
+            }
+        }
     }
 }

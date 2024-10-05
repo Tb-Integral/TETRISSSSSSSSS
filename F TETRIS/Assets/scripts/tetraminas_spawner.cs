@@ -6,14 +6,17 @@ using UnityEngine;
 public class tetraminas_spawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] _tetraminas;
+    public Transform tetrominoContainer;
 
     private void Start()
     {
-        Instantiate(_tetraminas[Random.Range(0, _tetraminas.Length)], transform.position, Quaternion.identity);
+        GameObject tetramino =Instantiate(_tetraminas[Random.Range(0, _tetraminas.Length)], transform.position, Quaternion.identity);
+        tetramino.transform.SetParent(tetrominoContainer);
     }
 
     public void spawn_tetramino()
     {
-        Instantiate(_tetraminas[Random.Range(0, _tetraminas.Length)], transform.position, Quaternion.identity);
+        GameObject tetramino = Instantiate(_tetraminas[Random.Range(0, _tetraminas.Length)], transform.position, Quaternion.identity);
+        tetramino.transform.SetParent(tetrominoContainer);
     }
 }
