@@ -24,6 +24,7 @@ public class tetramina_movement : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.A))
         {
             transform.position += new Vector3(-1, 0, 0);
@@ -69,7 +70,7 @@ public class tetramina_movement : MonoBehaviour
 
     }
 
-    bool IsOutside()
+    public bool IsOutside()
     {
         foreach (Transform children in transform)
         {
