@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public class tetramina_movement : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class tetramina_movement : MonoBehaviour
     }
 
     void Update()
-    {
+    { 
 
         if (Input.GetKeyDown(KeyCode.A))
         {
@@ -50,10 +51,17 @@ public class tetramina_movement : MonoBehaviour
             {
                 transform.position += new Vector3(0, 1, 0);
                 AddToGrid();
-                IsLineFull();
-                CheckTetrominoEmpty();
-                this.enabled = false;
-                FindObjectOfType<tetraminas_spawner>().spawn_tetramino();
+                if (FindObjectOfType<GameOver>().IsGameOver(grid))
+                {
+
+                }
+                else
+                {
+                    IsLineFull();
+                    CheckTetrominoEmpty();
+                    this.enabled = false;
+                    FindObjectOfType<tetraminas_spawner>().spawn_tetramino();
+                }
             }
             previousTime = Time.time;
         }  
