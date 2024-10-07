@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|e:\\mareatan\\github\\tetrisssssssss\\f tetris\\assets\\scripts\\tetramina_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tetramina_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|e:\\mareatan\\github\\tetrisssssssss\\f tetris\\assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\assets\\scripts\\tetraminas_spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tetraminas_spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\assets\\scripts\\tetramina_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tetramina_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,33 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameOver.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\GameOver.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameOver.cs",
               "ToolTip": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\GameOver.cs",
               "RelativeToolTip": "Assets\\scripts\\GameOver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T08:44:18.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuScript.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\MenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\MenuScript.cs",
               "ToolTip": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\MenuScript.cs",
               "RelativeToolTip": "Assets\\scripts\\MenuScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T22:07:07.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T22:07:07.993Z"
             },
             {
               "$type": "Document",
@@ -72,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "tetraminas_spawner.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\tetraminas_spawner.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\tetraminas_spawner.cs",
@@ -80,11 +79,12 @@
               "RelativeToolTip": "Assets\\scripts\\tetraminas_spawner.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T16:12:22.946Z"
+              "WhenOpened": "2024-09-25T16:12:22.946Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "tetramina_movement.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\tetramina_movement.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\tetramina_movement.cs",
