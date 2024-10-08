@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|e:\\mareatan\\github\\tetrisssssssss\\f tetris\\assets\\scripts\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|e:\\mareatan\\github\\tetrisssssssss\\f tetris\\assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{200A003E-0A32-6D1E-86B5-2806A1CEC202}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "music.cs",
+              "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\music.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\music.cs",
+              "ToolTip": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\music.cs",
+              "RelativeToolTip": "Assets\\scripts\\music.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:08:24.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameOver.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\GameOver.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameOver.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MenuScript.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\MenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\MenuScript.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ScoreManager.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "tetraminas_spawner.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\tetraminas_spawner.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\tetraminas_spawner.cs",
@@ -79,12 +96,11 @@
               "RelativeToolTip": "Assets\\scripts\\tetraminas_spawner.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T16:12:22.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T16:12:22.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "tetramina_movement.cs",
               "DocumentMoniker": "E:\\Mareatan\\GitHub\\TETRISSSSSSSSS\\F TETRIS\\Assets\\scripts\\tetramina_movement.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\tetramina_movement.cs",
@@ -92,8 +108,7 @@
               "RelativeToolTip": "Assets\\scripts\\tetramina_movement.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAowEMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:33:38.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T17:33:38.151Z"
             }
           ]
         }
